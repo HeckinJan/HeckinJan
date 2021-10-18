@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.sceneManagement;
+using UnityEngine.SceneManagement;
 
 
 public class TestScript : MonoBehaviour
 {
-    RigidBody rb;
+    //public RigidBody rb;
     public GameObject winText;
     float xInput;
     float zInput;
@@ -16,7 +16,7 @@ public class TestScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<RigidBody>();
+        //rb = GetComponent<RigidBody>();
     }
 
     // Update is called once per frame
@@ -40,7 +40,7 @@ public class TestScript : MonoBehaviour
         xInput = Input.GetAxis("Horizontal");
         zInput = Input.GetAxis("Vertical");
 
-        rb.AddForce(xInput * speed, 0, zInput * speed);
+        //rb.AddForce(xInput * speed, 0, zInput * speed);
     }
 
     private void OnMouseDown()
