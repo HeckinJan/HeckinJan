@@ -7,7 +7,7 @@ public class TestScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //jan er en baisemann 
+        //jan er en baisemann og en tullegutt
     }
 
     // Update is called once per frame
