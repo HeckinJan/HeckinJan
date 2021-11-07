@@ -11,15 +11,20 @@ public class OutsideButtonHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {       
-        outsideButton = GameObject.find("Outside Button");
-        middleButton = GameObject.find("Middle Button")
-        //The button shouldn't be there until the player clicks the door. If the player clicks the button, the door unlocks and the button vanishes. 
-        //If the player clicks outside the button the button vanishes again, without unlocking the door.
+        //#TODO FOR JAN - create gameobjects with these names: 
+        outsideButton = GameObject.Find("Outside Button"); 
+        middleButton = GameObject.Find("Middle Button");
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+    }
+
+    void OnButtonPress()
+    {
+
         
     }
 
